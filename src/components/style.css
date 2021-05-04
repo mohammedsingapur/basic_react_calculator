@@ -1,0 +1,47 @@
+.head{
+    height : 110px;
+    width : 130px;
+    display : inline-block;
+    margin : 2px;
+    text-align: right;
+    padding : 5px;
+}
+.calci{
+    text-align: center;
+    background-color: lime;
+    width : 190px;
+    display: inline-block;
+}
+button{
+    height : 30px;
+    width : 30px;
+    margin : 5px;
+    border-radius: 20px;
+    background-color: coral;
+    text-shadow: silver 5px;
+}
+#clr{
+    height : 30px;
+    width : 100px;
+    font-size: 18px;
+    color :  red;
+}
+.body{
+    height : auto;
+    width : 180px;
+    display : inline-block;
+    margin : 2px;
+    text-align: center;
+    
+}
+input{
+    width : 150px;
+    height : 30px;
+    border-radius: 20px;
+    background-color :mediumaquamarine;
+    text-shadow: silver 5px;
+    
+}
+input:focus{
+    outline: none;
+}
