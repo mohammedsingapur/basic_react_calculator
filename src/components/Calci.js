@@ -131,6 +131,13 @@ class Calci extends Component{
             })
         }
     }
+    zero(){
+        if(this.state.temp!=''){
+            this.setState({
+                temp : this.state.temp + '0'
+            })
+        }
+    }
     mul(){
         if(this.state.Operator===''){
             this.setState({
